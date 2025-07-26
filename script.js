@@ -1,5 +1,3 @@
-
 function fecharPopup() {
-  const popup = document.getElementById("promoBox");
-  if (popup) popup.style.display = "none";
+  document.getElementById("promoBox").style.display = "none";
 }
